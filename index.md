@@ -10,12 +10,12 @@ layout: default
         </div>
 
         <ol class="block-list">
+            {% for post in site.posts %}
             <li>
-                <h2>Recursively building trees in TeX with TikZ</h2>
+                <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+                {{ post.excerpt }}
             </li>
-            <li>
-                <h2>Installation guide for the Unofficial University of Manchester Beamer theme</h2>
-            </li>
+            {% endfor %}
         </ol>
 
     </div>
