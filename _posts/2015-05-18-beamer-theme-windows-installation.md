@@ -37,6 +37,8 @@ Once you've downloaded the theme and placed it in the correct directory you
 need to get MikTeX to update its file database. To do this, go back to the
 same Settings tool and click "Refresh FNDB" on the "Maintenance" tab.
 
+![MikTeX Path Database](/assets/img/2015-05-18-texhash.png)
+
 ## Everything should work...
 
 At this point you should be able to use the theme.
